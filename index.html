@@ -1,12 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>My English Journey</title>
-  </head>
-  <body style="font-family: Arial; text-align: center; background: #f9fafc;">
-    <h1>Welcome to My English Journey! 🌍</h1>
-    <p>This is my first website made with GitHub Pages!</p>
-    <p>Stay tuned — soon you’ll learn English step by step 🧠🎮</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English4fun 🌴</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌴 English4fun</h1>
+    <p class="subtitle">Aprenda inglês brincando!</p>
+  </header>
+
+  <main>
+    <section class="island">
+      <h2>🏝️ Ilha 1 — Saudações</h2>
+      <p>Aprenda a dizer “Hello”, “Good morning”, e “Goodbye”.</p>
+      <button onclick="startLesson('greetings')">Começar</button>
+    </section>
+
+    <section class="island">
+      <h2>🏝️ Ilha 2 — Números</h2>
+      <p>Aprenda os números de 1 a 10.</p>
+      <button onclick="startLesson('numbers')">Começar</button>
+    </section>
+
+    <section id="lesson-area" class="hidden"></section>
+  </main>
+
+  <footer>
+    <p>Feito com ❤️ por Vagner Camilo</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
 </html>
